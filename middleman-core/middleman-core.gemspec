@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency('erubi')
   s.add_dependency('haml', ['>= 4.0.5'])
   s.add_dependency('coffee-script', ['~> 2.2'])
-  s.add_dependency('kramdown', ['~> 2.4'])
+  s.add_dependency('kramdown', ['~> 2.4', 'git: https://github.com/jpiskiewicz/kramdown'])
   s.add_dependency('fast_blank')
   s.add_dependency('parallel')
   s.add_dependency('servolux')
